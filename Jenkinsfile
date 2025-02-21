@@ -20,7 +20,7 @@ pipeline {
 
                 python -m venv mlip-lab6
                 
-                ./mlip-lab6/bin/activate
+                source mlip-lab6/bin/activate
 
                 pip install pytest scikit-learn pytest-cov
 
