@@ -17,8 +17,12 @@ pipeline {
 
                 # TODO fill out the path to conda here
                 # sudo /PATH/TO/CONDA init
+
+                python -m venv mlip-lab6
                 
                 ./mlip-lab6/bin/activate
+
+                pip install pytest scikit-learn pytest-cov
 
                 # TODO Complete the command to run pytest
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
